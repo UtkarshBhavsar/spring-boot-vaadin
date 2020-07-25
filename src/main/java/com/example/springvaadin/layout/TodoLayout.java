@@ -27,7 +27,6 @@ public class TodoLayout extends HorizontalLayout {
 
         binder.addValueChangeListener(valueChangeEvent -> todoRepository.save(binder.getBean())); // Listener operation on value change
 
-
         deleteButton.addClickListener(buttonClickEvent -> {
             todoRepository.deleteById(binder.getBean()
                                             .getId());
