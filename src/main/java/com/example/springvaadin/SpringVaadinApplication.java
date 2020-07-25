@@ -1,6 +1,5 @@
 package com.example.springvaadin;
 
-import com.example.springvaadin.model.Todo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,6 +10,4 @@ public class SpringVaadinApplication {
 
         SpringApplication.run(SpringVaadinApplication.class, args);
     }
-
-
 }
